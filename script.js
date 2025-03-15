@@ -4,7 +4,6 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
     const myItem = input.value;
-    console.log(myItem)
     input.value = '';
 
     const listItem = document.createElement("li");
